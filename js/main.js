@@ -1,19 +1,14 @@
 function cardValue(){
     
-    console.log("Hello")    
-    value = 'card rank-9 hearts'
-    currCard = document.getElementById("card1").innerHTML
-    console.log(currCard)
-    return value
-  
+    //const value = document.getElementById("cardValue")    
+    
+    const value = "5"
+    const suit = "&spades"
+    
+    document.getElementsByClassName("card rank-6 spades").innerHTML = `card rank-${value} spades`;
+    //document.getElementsId("rank1").innerHTML = `${value}`;
+    //document.getElementsId("suit1").innerHTML = suit;
+    document.getElementsId("change").innerHTML = value;
+
 }
 
-function cardValue2(){
-    
-    console.log("Hello")    
-    value = 'card rank-9 hearts'
-    currCard = document.getElementById("card1").innerHTML
-    console.log(currCard)
-    return value
-  
-}

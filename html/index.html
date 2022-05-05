@@ -10,7 +10,7 @@
 
 <body>  
 
-    <div class = "playingCards fourColours faceImages">
+    <div class = "playingCards fourColours faceImages"> 
         <h2>Single Cards</h2>
 
         <h3>Back</h3>
@@ -19,17 +19,26 @@
 
         <div class="clear"></div>
 
-        <h3>Front</h3>
+        <h3 >Front</h3>
 
-        <script src="/js/main.js" type="module">
-
-        <div id="card1" class="card rank-7 hearts">
-            <span class="rank">7</span>
-            <span class="suit">&spades;</span>
+        <div id="cardMain" class="card rank-6 spades">
+            <span id = "rank1" class="rank">6</span>
+            <span id = "suit1" class="suit">&spades;</span>
         </div>
-        
-        </script>
-        
+        <p id = "change"></p>
+    </div>
+    
+    <button onclick="cardValue()">Click me</button>
+    <p id = "change"> </p>
+    <script src="/js/main.js"></script>
+
+
+</body>
+</html>
+    <!--
+    <br><br>
+    <p1>-----------------------------------------------------------------------------------------------------------</p1>
+    <br>
         <div class="card rank-j spades">
             <span class="rank">j</span>
             <span class="suit">&spades;</span>
@@ -80,7 +89,5 @@
    
            <div class="clear"></div>
    </div>
-</div>
 
-</body>
-</html>
+-->
